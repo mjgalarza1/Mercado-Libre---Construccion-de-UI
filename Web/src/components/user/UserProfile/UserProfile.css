@@ -1,0 +1,17 @@
+.option {
+    cursor: pointer;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid black;
+}
+
+.active {
+    border-bottom: 1px solid #3483FA;
+    color: #3483FA;
+}
+
+.styleless-button {
+    color: black;
+    background-color: transparent;
+    border: 0px;
+}

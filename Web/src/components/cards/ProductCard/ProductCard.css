@@ -1,0 +1,84 @@
+.freeShip {
+    color: #00A650;
+    background-color: #00A6501A;
+    padding: 4px;
+    border-radius: 4px;
+    color: #00A650;
+    font-size: 0.8rem;
+}
+
+.product-info-wrapper {
+    border-top: 1px solid rgba(0, 0, 0, .25)
+}
+
+.product-info-wrapper h6 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Limitar a 2 líneas */
+    line-clamp: 2;
+    /* Limitar a 2 líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Mostrar "..." si el texto es muy largo */
+    white-space: normal;
+}
+
+.product-info-wrapper p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Esto limita los párrafos a una sola línea */
+}
+
+.preview-container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.preview-container img {
+    max-height: 230px;
+}
+
+.product-wrapper {
+    width: 300px;
+    height: 434px;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    animation: fadeIn 1s ease-in;
+    transition: box-shadow 0.3s ease;
+}
+
+.product-wrapper:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadein {
+    animation: fadeIn 1s ease-in;
+}
+
+.product-card-owner {
+    color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+
+.product-card-owner:hover {
+    color: #050505; 
+    font-size: 1.01em;
+}

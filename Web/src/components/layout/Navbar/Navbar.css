@@ -1,0 +1,51 @@
+/* NavbarMercadoLibre.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffdb15;
+    padding: 10px 20px;
+  }
+  
+  .navbar-search {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 35px;
+  }
+  
+  .navbar-search input {
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .navbar-search button {
+    background-color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 24px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    
+}
+
+.navbar-links li:first-child {
+  padding-right: 24px;
+  border-right: 1px solid black;
+}
+
+.navbar-links > li > a {
+  color: black;
+  text-decoration: none;
+}

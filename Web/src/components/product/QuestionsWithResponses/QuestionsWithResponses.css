@@ -1,0 +1,32 @@
+.selectableQuestion {
+    position: relative; /* Necesario para que el desplazamiento se mantenga dentro del contenedor */
+    cursor: pointer;
+    transition: transform 0.4s ease-out;
+}
+
+.selectableQuestion:hover {
+    transform: translateX(5px); /* Mueve el párrafo 10px hacia la derecha */
+    animation: bounce 0.4s ease-out; 
+
+}
+
+p {
+    
+}
+
+p:hover {
+/* Aplica la animación de bounce */
+}
+
+/* Definición de la animación bounce */
+@keyframes bounce {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px); /* Mayor desplazamiento en la mitad del efecto */
+    }
+    100% {
+        transform: translateX(5px); /* Posición final un poco a la derecha */
+    }
+}

@@ -1,0 +1,9 @@
+.nav-wrapper {
+    max-width: 133px;
+    max-height: 18px;
+}
+
+.nav-button {
+    border: none;
+    background-color: transparent;
+}

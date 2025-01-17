@@ -1,0 +1,50 @@
+.edit-form-wrapper {
+    max-width: 1000px;
+    background-color: #FFFFFF;
+}
+
+
+select {
+    height: 100%;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+label {
+    padding-top: 15px;
+}
+
+
+.separator {
+ border-top: 1px solid #00000040;
+}
+
+.delete {
+    cursor: pointer;
+    color: #3483FA;
+    user-select: none;
+}
+
+.delete:hover {
+    color: #183d75;
+}
+
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px #00000026;
+}
+
+select.input-error {
+    border: 2px solid red;
+}
+
+
+
+
+
