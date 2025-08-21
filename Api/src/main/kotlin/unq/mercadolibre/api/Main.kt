@@ -1,3 +1,5 @@
+package unq.mercadolibre.api
+
 import com.fasterxml.jackson.module.kotlin.jacksonObjectMapper
 import unq.mercadolibre.api.models.Roles
 import com.unq.mercadolibre.api.controllers.TokenController
