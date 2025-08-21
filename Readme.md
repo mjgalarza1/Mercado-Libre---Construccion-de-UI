@@ -32,8 +32,6 @@
   </tr>
 </table>
 
-
-
 ## 🏗️ Enunciado del proyecto y modelo del mismo
 
 + https://github.com/unq-ui/material/tree/master/TPs/2024s2
@@ -78,7 +76,7 @@ Durante la cursada, se exploraron y enseñaron los siguientes contenidos:
 + **Hooks**: Para gestionar lógica y ciclos de vida de los componentes de forma funcional.
 
 ## 📥 ¿Cómo instalar los proyectos?
-**Nota**: Debes asegurarte de tener instalado [Node.js](https://nodejs.org/en)
+> **Nota**: Debes asegurarte de tener instalado [Node.js](https://nodejs.org/en)
 
 1. Clonar el repositorio
 ```
