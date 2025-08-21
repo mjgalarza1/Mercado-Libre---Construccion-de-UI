@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getToken, setToken } from './tokenService';
 
-const API_URL = '192.168.1.137';
+const API_URL = 'xxx.xxx.xxx.xxx'; // reemplaza por tu IP local
 
 const axiosService = axios.create({
   baseURL: `http://${API_URL}:7070`,
